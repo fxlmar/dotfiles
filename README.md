@@ -30,6 +30,7 @@ Minimal, lightweight, and mostly boring.
 ├── .xinitrc
 └── bar.sh
 
+```
 Keybindings
 Key	Action
 Super + Q	Terminal
