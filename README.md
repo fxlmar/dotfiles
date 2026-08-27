@@ -31,8 +31,8 @@ Minimal, lightweight, and mostly boring.
 └── bar.sh
 
 ```
-Keybindings
-Key	Action
+# Keybindings
+
 Super + Q	Terminal
 Super + A	Firefox
 Super + D	Command menu
@@ -48,7 +48,8 @@ Super + J	Group 2
 Mouse
 Super + Left Click — move window
 Super + Right Click — resize window
-Bar
+
+# Bar
 
 bar.sh is a small shell script used by lemonbar-xft.
 
@@ -57,9 +58,7 @@ It currently displays:
 time
 battery
 
-The bar updates once per second.
-
-Dependencies
+# Dependencies
 cwm
 st
 lemonbar-xft
@@ -75,7 +74,7 @@ pulseaudio
 nano
 Plan 9 cursor
 
-Notes
+# Notes
 
 This is a personal configuration, not a framework.
 
