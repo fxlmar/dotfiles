@@ -1,0 +1,1 @@
+doas make clean install
