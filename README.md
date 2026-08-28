@@ -4,8 +4,6 @@ Personal X11 setup.
 
 Minimal, lightweight, and mostly boring.
 
-## Stack
-
 - **WM:** cwm
 - **Terminal:** st
 - **Bar:** lemonbar-xft
