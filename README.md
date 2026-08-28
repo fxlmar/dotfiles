@@ -18,7 +18,7 @@ Minimal, lightweight, and mostly boring.
 ```text
 .
 ├── .config/
-│   └── picom/
+│   └── picom/picom.conf
 ├── lemonbar-xft/
 ├── st/
 ├── wallpapers/
@@ -52,15 +52,15 @@ bar.sh is a small shell script used by lemonbar-xft.
 
 It currently displays:
 
-time
-battery
+- time
+- battery
+- informations
 
 # Dependencies
 - cwm
 - st
 - lemonbar-xft
 - picom
-- dmenu
 - xinit
 - xwallpaper
 - setxkbmap
@@ -76,5 +76,3 @@ battery
 This is a personal configuration, not a framework.
 
 It is tailored to my setup and may require changes on other machines.
-
-Use whatever you like.
