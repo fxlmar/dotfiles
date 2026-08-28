@@ -31,23 +31,22 @@ Minimal, lightweight, and mostly boring.
 └── bar.sh
 
 ```
-# Keybindings
-
-Super + Q	Terminal
-Super + A	Firefox
-Super + D	Command menu
-Super + Shift + D	Execute menu
-Super + X	Close window
-Super + M	Restart cwm
-Super + Shift + M	Quit cwm
-Super + F	Maximize
-Super + Arrow	Move window
-Super + Tab	Cycle windows
-Super + H	Group 1
-Super + J	Group 2
-Mouse
-Super + Left Click — move window
-Super + Right Click — resize window
+# Keyboard keybindings
+- *Super* + *Q*	**Terminal**
+- *Super* + *A*	**Firefox**
+- *Super* + *D*	**Command menu**
+- *Super* + *Shift* + *D*	**Execute menu**
+- *Super* + *X*	**Close window**
+- *Super* + *M*	**Restart cwm**
+- *Super* + *Shift* + *M*	**Quit cwm**
+- *Super* + *F*	**Maximize**
+- *Super* + *Arrow*	**Move window**
+- *Super* + *Tab*	**Cycle windows**
+- *Super* + *H*	**Group 1**
+- *Super* + *J*	**Group 2**
+# Mouse keybindings
+- *Super* + *Left Click* — **move window**
+- *Super* + *Right Click* — **resize window**
 
 # Bar
 
@@ -59,20 +58,20 @@ time
 battery
 
 # Dependencies
-cwm
-st
-lemonbar-xft
-picom
-dmenu
-xinit
-xwallpaper
-setxkbmap
-scrot
-pavucontrol
-firefox
-pulseaudio
-nano
-Plan 9 cursor
+- cwm
+- st
+- lemonbar-xft
+- picom
+- dmenu
+- xinit
+- xwallpaper
+- setxkbmap
+- scrot
+- pavucontrol
+- firefox
+- pulseaudio
+- nano
+- Plan 9 cursor
 
 # Notes
 
