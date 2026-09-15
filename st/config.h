@@ -1,4 +1,4 @@
-static char *font = "Terminus:bold:pixelsize=16";
+static char *font = "Libertinus Mono:pixelsize=16";
 static int borderpx = 60;
 
 static char *shell = "/bin/sh";
@@ -53,9 +53,9 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* default foreground/background/cursor */
-	"#303030",
-	"#D6D6D6",
-	"#303030",
+	"#3D633B", /* foreground */
+	"#D6D6D6", /* background */
+	"#3D633B", /* cursor */
 	"#F5F5F5",
 };
 
