@@ -6,7 +6,7 @@ command www firefox
 command pavu pavucontrol
 unbind-key all
 # --- #
-bind-key 4-q st
+bind-key 4-q "st -g 42x20" 
 bind-key 4-a firefox
 # --- #
 bind-key 4-d menu-cmd
@@ -31,13 +31,13 @@ bind-key 4-Tab 	  window-cycle
 bind-key 4S-Tab	  window-rcycle
 # --- #
 borderwidth 4
-color activeborder "#6F6F6F"
-color inactiveborder "#6F6F6F"
+color activeborder "#3d633b"
+color inactiveborder "#3d633b"
 # --- #
 color menubg "#F5F5F5"
-color menufg "#000000"
+color menufg "#3d633b"
 color font "#000000"
-fontname "Terminus:pixelsize=14:style=Bold"
+fontname "Libertinus Mono:pixelsize=16:style=Bold"
 
 ####
 
