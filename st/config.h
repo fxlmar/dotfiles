@@ -1,4 +1,4 @@
-static char *font = "Libertinus Mono:pixelsize=16";
+static char *font = "Iosevka:pixelsize=18";
 static int borderpx = 60;
 
 static char *shell = "/bin/sh";
@@ -31,32 +31,32 @@ unsigned int tabspaces = 8;
 
 static const char *colorname[] = {
 	/* normal */
-	"#303030", /* black */
-	"#C0392B", /* red */
-	"#3A7D44", /* green */
-	"#A67C00", /* yellow */
-	"#357ABD", /* blue */
-	"#8E5AA6", /* magenta */
-	"#398A8A", /* cyan */
-	"#F5F5F5", /* white */
+	"#1B1E1E", /* black */
+	"#CC241D", /* red */
+	"#98971A", /* green */
+	"#D79921", /* yellow */
+	"#458588", /* blue */
+	"#B16286", /* magenta */
+	"#689D6A", /* cyan */
+	"#FFFFFF", /* white */
 
 	/* bright */
-	"#606060", /* bright black */
-	"#C0392B", /* bright red */
-	"#3A7D44", /* bright green */
-	"#A67C00", /* bright yellow */
-	"#357ABD", /* bright blue */
-	"#8E5AA6", /* bright magenta */
-	"#398A8A", /* bright cyan */
-	"#FFFFFF", /* bright white */
+	"#928374", /* bright black */
+	"#FB4934", /* bright red */
+	"#B8BB26", /* bright green */
+	"#FABD2F", /* bright yellow */
+	"#83A598", /* bright blue */
+	"#D3869B", /* bright magenta */
+	"#8EC07C", /* bright cyan */
+	"#EBDBB2", /* bright white */
 
 	[255] = 0,
 
 	/* default foreground/background/cursor */
-	"#3D633B", /* foreground */
-	"#D6D6D6", /* background */
-	"#3D633B", /* cursor */
-	"#F5F5F5",
+	"#FFFFFF", /* foreground */
+	"#1B1E1E", /* background */
+	"#FFFFFF", /* cursor */
+	"#1B1E1E", /* couleur supplémentaire */
 };
 
 unsigned int defaultfg = 258;
