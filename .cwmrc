@@ -1,49 +1,73 @@
+# --- #
+
 moveamount 200
 gap 50 50 50 50
+
+# --- #
+
 command scrot scrot
 command eyes xeyes
 command sound pavucontrol
 command 4-3 /home/fxeu/4-3.sh
 command 16-9 /home/fxeu/16-9.sh
-command "redshift +" "redshift -O 6000"
-command "redshift x" "redshift -x"
 command pfetch "st -g 47x9 -e sh -c 'pfetch; exec sh'"
-unbind-key all
+
 # --- #
+
+unbind-key all
+
+# --- #
+
 bind-key 4-q "st -g 42x20" 
 bind-key 4-a firefox
+
 # --- #
+
 bind-key 4-d menu-cmd
 bind-key 4S-d menu-exec
-bind-key 4-x window-close
+
+# --- #
+
 bind-key 4S-m quit
 bind-key 4-m restart
-bind-key 4-f window-maximize
+
 # --- #
+
+bind-key 4-x window-close
+bind-key 4-f window-maximize
 bind-mouse 4-1 window-move
 bind-mouse 4-3 window-resize
+
 # --- #
+
 bind-key 4-l window-snap-left
 bind-key 4-c window-snap-center
 bind-key 4-h window-snap-up
 bind-key 4-k window-snap-right
-bind-key 4S-k window-hmaximize
 bind-key 4-j window-snap-down
-bind-key 4S-h window-vmaximize
+
+# --- #
+
 bind-key 4-Up window-move-up
 bind-key 4-Down window-move-down
 bind-key 4-Right window-move-right
 bind-key 4-Left window-move-left
+
+# --- #
+
 bind-key 4-Tab 	  window-cycle
 bind-key 4S-Tab	  window-rcycle
+
 # --- #
-borderwidth 4
-color activeborder "#3d633b"
-color inactiveborder "#3d633b"
+
+borderwidth 1
+color activeborder "999999"
+
 # --- #
-color menubg "#F5F5F5"
-color menufg "#3d633b"
-color font "#000000"
+
+color menubg "282828"
+color menufg "#3c3836"
+color font "#3c3836"
 fontname "Libertinus Mono:pixelsize=16:style=Bold"
 
-####
+# --- #
